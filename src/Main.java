@@ -3,8 +3,7 @@ public class Main {
 
         int accBal = 100; // initial account balance
         int chargeAccBal = 1100; // charge account balance  subscriber
-        boolean a = ((chargeAccBal > 1000)); // comparison of account charging subscriber
-        if (a) {
+        if (chargeAccBal > 1000) {
             int cashbk1 = ((chargeAccBal / 100)); // rules of cashback
             System.out.println(" вы пополнили счет " + chargeAccBal);
             System.out.println(" кэшбэк составил " + cashbk1);
